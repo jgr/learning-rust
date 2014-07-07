@@ -1,7 +1,7 @@
 use std::string::String;
 
 fn main() {
-  for i in range(0u, 100) {
+  for i in range(1u, 101) {
     let mut buf = String::new();
 
     if i % 3 == 0 {
